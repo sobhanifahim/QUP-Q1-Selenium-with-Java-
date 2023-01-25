@@ -50,7 +50,7 @@ public class Selenium_automation {
             XSSFWorkbook workbook = new XSSFWorkbook(file);
   
             // Get first/desired sheet from the workbook
-            XSSFSheet sheet = workbook.getSheetAt(day-1);
+            XSSFSheet sheet = workbook.getSheetAt(day);
             
             int rows=sheet.getLastRowNum();
             for(int r=2;r<=rows;r++){
